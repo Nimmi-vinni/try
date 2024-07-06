@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nature</title>
+    <link rel="stylesheet" href="nature.css">
+    <Style>
+        *{
+            box-sizing: border-box;
+        }
+        body {
+            font-family: arial;
+            padding: 10px;
+            background-color: aliceblue;
+        }
+        header {
+            padding-left: 30px;
+            text-align: center;
+            background-color: #f1f1f1;
+        }
+        header h1{
+            text-align: center;
+            font-size: 50px;
+        } 
+        .topbar {
+            overflow: hidden;
+            background-color: #333;
+        }
+      .topbar a{
+        float: left;
+        display: block;
+        color: #f1f1f1;
+        text-align: center;
+        padding:  14px 16px;
+        text-decoration: none;
+      }
+      .topbar a:hover {
+         background-color: #ddd;
+         color: black;
+
+      }
+      .leftcoloum {
+            float: left;
+            width: 75%;
+      }
+      img {
+        height: 180px;
+        width: 800px;
+        opacity: 1;
+      }
+
+
+          .rightcoloum{
+            float: left;
+            width: 25%;
+            background-color: #f1f1f1;
+            padding-left: 20px;
+          }
+          .fakeimage{
+          background-color: #aaa;
+          width: 100%;
+          padding: 20px;
+
+          }
+          .cardname{
+            background-color: white;
+            padding: 20px;
+            margin-top: 20px;
+          }
+          img {
+        height: 150px;
+        width: 500px;
+        opacity: 1;
+          }
+         
+          .row::after{
+            content: "";
+            display: table;
+            clear: both;
+          }
+          .footer{
+            padding: 20px;
+            text-align: center;
+            background-color: #ddd;
+            margin: 20px;
+          }
+
+        
+    </Style>
+
+</head>
+<body>
+    <div class="header">
+        <div class="topbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="gallery">Gallery</a>
+            <a href="location">Location</a>
+            <a href="#" style="float:right">Login</a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="leftcoloum">
+            <div class="card">
+                <h2>tittle heading</h2>
+                <h5>tittle description jan 2017</h5>
+                <div class="fakeimage" style="height: 250px;">
+                    <img src="n1.jpeg">
+                </div>    
+                <p>nature</p>
+                <h5><i>History of nature</i></h5>
+                   <p> Natural history is a domain of inquiry involving organisms, including animals, fungi, and plants, in their natural environment, leaning more towards observational than experimental methods of study. A person who studies natural history is called a naturalist or natural historian.</p>
+            </div>
+            <div class="card">
+                <h2>tittle heading</h2>
+                <h5>tittle description jan 2017</h5>
+                <div class="fakeimage" style="height: 250px;"> 
+                    <img src="n1.jpeg">
+                </div>    
+                <p>nature</p>
+                <h5><i>History of nature</i></h5>
+                <p>Natural history is a domain of inquiry involving organisms, including animals, fungi, and plants, in their natural environment, leaning more towards observational than experimental methods of study. A person who studies natural history is called a naturalist or natural historian.</p>
+                <p>Few scholars think that history repeats itself, whereas other refutes this idea 
+                    vehemently. The truth is that both these ideas are partly true. History repeats itself in the 
+                    sense that things of the world are the same all the time but the ways are different every time. 
+                    Although historical events do not occur in the same order and in the same place, they have a 
+                    basic unity, and conform to a pattern which is easily discernible on closer study. Those who 
+                    oppose view that change is the law of nature, and even if apparently two events seem alike, 
+                    they are not really the same, for history is a record of unique, individualistic and remarkable 
+                    events. If historical events are repeated, the problem of growth, development and progress 
+                    would not arise. But the truth is that history neither repeats itself, nor is it totally free from the 
+                    basic unity of all its facts. Change appears to be the basic character of history indicating that 
+                    history does not repeat itself. </p>
+            </div>
+       
+        </div>
+        <div class="rightcoloum">
+            <div class="card">
+                <h2>About</h2>
+                <div class="fakeimage" style="height: 100px width=200px;"> 
+                    <img src="n2.jpeg">
+
+                </div>
+                <p>Natural history can be defined as understanding plants, animals, and other organisms in the context of the habitats in which they occur. Historically, natural history was created and dominated by Europeans, who aimed to catalogue all living things, including humans, into ways that served European colonial interests.</p>
+            </div>
+            <div class="card">
+                <h3>Gallery</h3>
+                <div><img src="n1.jpeg"></div>
+                <div><img src="n2.jpeg"></div>
+                <div><img src="n3.jpeg"></div>
+                <div><img src="n4.jpeg"></div>
+                
+            </div>
+         </div>
+    </div>  
+    <div class="footer">
+        <h2>footer</h2>
+    </div>
+ 
+    
+</body>
+</html>
